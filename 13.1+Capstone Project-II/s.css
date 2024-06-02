@@ -1,0 +1,155 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: white !important;
+    background-color: #240750 !important;
+}
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: #FFFF !important;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 400 !important;
+    font-family: "Poppins" !important;
+}
+
+.lead2{
+    font-size: 1rem;
+    font-family: "Poppins" !important;
+}
+
+.col-md-5{
+    border:5px solid #57A6A1;
+    border-radius: 10%;
+
+}
+
+.gradient-background {
+    /* The animated gradient background */
+    background: 
+        linear-gradient(135deg, #57A6A1 25%, transparent 25%) -50px 0,
+        linear-gradient(225deg, #57A6A1 25%, transparent 25%) -50px 0,
+        linear-gradient(315deg, #577B8D 25%, transparent 25%),
+        linear-gradient(45deg, #577B8D 25%, transparent 25%),
+        linear-gradient(300deg, #240750, #344C64, #577B8D, #57A6A1);
+    background-size: 100px 100px, 100px 100px, 100px 100px, 100px 100px, 180% 180%;
+    background-color: linear-gradient(300deg, #240750, #344C64, #577B8D, #57A6A1);
+    animation: gradient-animation 18s ease infinite;
+    color: white;
+    font-family: "Poppins" !important;
+}
+
+.email-text{
+    color: white;
+    font-family: 'Poppins';
+}
+
+.custom-gap {
+    gap: 2rem !important;
+}
+
+.display-5 {
+    --bs-text-opacity: 1;
+    color: #FFFF !important;
+    font-family: "Quattrocento" !important;
+}
+
+h2{
+    --bs-text-opacity: 1;
+    color: #57a6a1 !important;
+    font-family: "Quattrocento" !important;
+}
+
+.container-fluid a{
+    color: white;
+}
+
+footer{
+    background: linear-gradient(300deg, #240750, #344C64, #577B8D, #57A6A1);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    color: white;
+    font-family: "Poppins" !important;
+}
+
+footer a{
+    color: white;
+}
+
+.pro-img {
+    height: 200px;
+    border-radius: 50%;
+  }
+
+.header2{
+    background: linear-gradient(300deg, #344C64, #577B8D, #57A6A1);
+}
+
+.row {
+    margin-left: 0 !important;
+}
+
+.abc {
+    color: #57a6a1 !important;
+    font-size: 3rem !important;
+    font-family: "Quattrocento" !important;
+}
+
+.mb-2{
+    font-family: "Quattrocento" !important;
+}
+
+.btn-primary{
+    --bs-btn-bg: #240750 !important;
+    --bs-btn-border-color:#240750 !important;
+}
+
+.btn-group{
+    width: 3rem;
+}
+
+.card-img-top {
+    height: 225px;
+    object-fit: cover;
+    object-position: top;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.card-body {
+    flex: 1 1 auto;
+}
+.btn-group {
+    margin-top: auto;
+}
+
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180vh;
+    
+}
+.carousel-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50%;
+        }
+
